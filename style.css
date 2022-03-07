@@ -1,0 +1,184 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.delicious {
+  margin-left: 0.5rem;
+}
+
+.delicious h1 {
+  font-size: 2.25rem;
+  font-family: 'Yellowtail', cursive;
+}
+
+.delicious p {
+  text-transform: uppercase;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.nav-container ul li {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.rss {
+  display: inline-block;
+  margin-left: 0.75rem;
+}
+
+.top-hr {
+  height: 10px;
+  background-color: black;
+  opacity: 0.25;
+  margin-top: 2rem;
+}
+
+.bottom-hr {
+  height: 10px;
+  background-color: black;
+  opacity: 0.25;
+  margin-top: 2.75rem;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.main-container p {
+  opacity: 0.5;
+  text-transform: uppercase;
+  font-size: 12.25px;
+  margin-top: 0.3rem;
+}
+
+.main-container h2 {
+  font-size: 2.75rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.print img {
+  margin-top: 0.25rem;
+  height: 15px;
+}
+
+.print p {
+  font-size: 14px;
+  margin-left: 0.25rem;
+}
+.print {
+  display: flex;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin-top: 1.75rem;
+}
+
+.pizza-img img {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.directions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 275px;
+  text-indent: 2rem;
+  line-height: 1.25rem;
+  font-size: 21px;
+  margin-top: 2rem;
+  opacity: 0.5;
+}
+
+.ingredients {
+  background-image: url('./assets/chocolate_pizza/list-bg.png');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 5px 5px rgb(125, 123, 123);
+}
+
+.left-list {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-left: 4rem;
+  margin-top: 2.75rem;
+  font-family: 'Signika', sans-serif;
+}
+
+.right-list {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-right: 4rem;
+  margin-top: 2.75rem;
+  width: 275px;
+  font-family: 'Signika', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 150px;
+  height: 25px;
+  background-color: rgb(184, 73, 33);
+  color: white;
+  text-align: center;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Signika', sans-serif;
+}
+
+.vanessa {
+  display: flex;
+}
+
+.van-info {
+  margin-left: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.van-info h3 {
+  font-size: 1.5rem;
+}
+
+.van-info p {
+  font-size: 1.4rem;
+  opacity: 0.75;
+}
+
+.small {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
